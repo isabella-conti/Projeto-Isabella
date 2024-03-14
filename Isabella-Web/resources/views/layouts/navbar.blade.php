@@ -24,9 +24,8 @@
             transform: translateY(-2px) scale(0.98);
         }
 
-
         .bg-navbar {
-            background-color: #311843;
+            background-color: #280b3c;
         }
     </style>
 </head>
