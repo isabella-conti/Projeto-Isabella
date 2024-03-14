@@ -5,42 +5,52 @@
 @section('content')
     @include('layouts.navbar')
 
-    <div class="container mx-auto mt-20 flex flex-col md:flex-row items-center">
+    <div class="container mx-auto mt-20 text-center">
 
-        <div id="home" class="w-full md:w-1/2 p-4">
-            <h1 class="text-3xl font-bold mb-4 text-purple-400">Sobre Mim</h1>
-            <div class="relative bg-gray-800 p-6 rounded-lg shadow-lg">
-                <h2 class="text-xl font-semibold mb-2 text-purple-400">Experiência</h2>
-                <p class="text-gray-200">Aqui você pode adicionar informações sobre sua experiência profissional.</p>
-                <h2 class="text-xl font-semibold mt-4 mb-2 text-purple-400">Habilidades</h2>
-                <p class="text-gray-200">Aqui você pode listar suas habilidades e competências.</p>
-
-                <div id="brincadeira" class="mt-8">
-
-                    <div id="opcoes" class="flex mt-2 relative">
-
-                        <img id="nao" src="{{ asset('images/rei.png') }}" onmouseover="moverNao()" class="cursor-pointer w-54 h-48">
-                    </div>
-
-                </div>
-            </div>
+        <div id="profile" class="mb-6">
+            <img src="{{ asset('images/isa.jpeg') }}" alt="Sua Foto" class="rounded-full w-60 h-60 shadow-lg mx-auto mb-4">
+            <h2 class="text-xl font-bold mb-2">Isabella Conti</h2>
+            <p class="text-gray-600">Legenda sobre você ou alguma descrição breve.</p>
+            <p class="text-gray-600">Legenda sobre você ou alguma descrição breve.</p>
         </div>
 
-        <div id="courses" class="container mx-auto mt-10">
-            <h2 class="text-3xl font-bold mb-4 text-purple-400">Cursos Disponíveis</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="flex justify-center space-x-4 mt-8">
+            <a href="{{ route('home') }}" class="neumorphism bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">Contato</a>
+            <a href="{{ route('home') }}" class="neumorphism bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">Outra Sessão</a>
+        </div>
 
-                <div class="bg-gray-800 rounded-lg shadow-lg p-4">
-                    <h3 class="text-xl font-bold mb-2 text-purple-400">Curso 1</h3>
-                    <p class="text-gray-200">Descrição do Curso 1.</p>
-                </div>
-                <div class="bg-gray-800 rounded-lg shadow-lg p-4">
-                    <h3 class="text-xl font-bold mb-2 text-purple-400">Curso 2</h3>
-                    <p class="text-gray-200">Descrição do Curso 2.</p>
-                </div>
+        <div id="brincadeira" class="mt-8">
+            <div id="opcoes" class="flex mt-2 relative">
+                <img id="nao" src="{{ asset('images/rei.png') }}" onmouseover="moverNao()"
+                    class="cursor-pointer w-54 h-48">
             </div>
         </div>
     </div>
+
+    <div id="courses" class="w-full md:w-3/4 mx-auto mb-12">
+        <h2 class="text-3xl font-bold mb-4 text-purple-400">Cursos Disponíveis</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="bg-white rounded-lg shadow-neumorphism p-6">
+                <h3 class="text-xl font-bold mb-2 text-purple-400">Curso 1</h3>
+                <p class="text-gray-600">Descrição do Curso 1.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-neumorphism p-6">
+                <h3 class="text-xl font-bold mb-2 text-purple-400">Curso 2</h3>
+                <p class="text-gray-600">Descrição do Curso 2.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-neumorphism p-6">
+                <h3 class="text-xl font-bold mb-2 text-purple-400">Curso 3</h3>
+                <p class="text-gray-600">Descrição do Curso 3.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow-neumorphism p-6">
+                <h3 class="text-xl font-bold mb-2 text-purple-400">Curso 4</h3>
+                <p class="text-gray-600">Descrição do Curso 4.</p>
+            </div>
+        </div>
+    </div>>
+
+
+
 
     <script>
         function moverNao() {

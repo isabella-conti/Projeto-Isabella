@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +11,19 @@
     @vite('resources/css/app.css')
 
     <style>
-        body {
-            background-color: #2d2d2d;
+        body, html {
+            background-color: #311843 !important; /* Definindo a cor de fundo para toda a página */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             color: #fff;
+
         }
     </style>
 </head>
+
 <body>
+
 
     @yield('content')
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
@@ -27,4 +31,5 @@
 
     <script src="//unpkg.com/alpinejs" defer></script>
 </body>
+
 </html>
