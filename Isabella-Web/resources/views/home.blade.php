@@ -53,7 +53,7 @@
     <div class="container mx-auto mt-20 text-center">
 
         <div id="profile" class="mb-6">
-            <img src="{{ asset('images/isa.jpeg') }}" alt="Sua Foto" class="rounded-full w-60 h-60 shadow-lg mx-auto mb-4 mt-20">
+            <img src="{{ asset('images/isa.jpeg') }}" alt="Sua Foto" class="rounded-full w-60 h-60 shadow-lg mx-auto mb-4 mt-8">
             <h2 class="text-xl font-bold mb-2">Isabella Conti</h2>
             <p class="text-gray-600">Legenda sobre você ou alguma descrição breve.</p>
             <p class="text-gray-600">Legenda sobre você ou alguma descrição breve.</p>
