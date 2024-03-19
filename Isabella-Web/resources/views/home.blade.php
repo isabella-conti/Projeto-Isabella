@@ -97,15 +97,42 @@
             </div>
             <div class="bg-[#311843] rounded-lg shadow-neumorphism p-6">
                 <h3 class="text-xl font-bold mb-2 text-purple-400">Gambito da Dama Aceito</h3>
-                <p class="text-gray-600">Descrição do Curso 2.</p>
+                <div class="image-container relative">
+                    <img src="images/GAMBITODADAMA.png" alt="Imagem do Curso 1"
+                        class="mx-auto mb-4 w-54 h-78 image-hover">
+                    <p class="text-gray-600 mb-8">Abertura.</p>
+                    <div class="text-center">
+                        <button
+                            class="btn-saiba-mais neumorphism bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">Saiba
+                            mais</button>
+                    </div>
+                </div>
             </div>
             <div class="bg-[#311843] rounded-lg shadow-neumorphism p-6">
-                <h3 class="text-xl font-bold mb-2 text-purple-400">Abertura Inglesa</h3>
-                <p class="text-gray-600">Descrição do Curso 3.</p>
+                <h3 class="text-xl font-bold mb-2 text-purple-400">5 Segredos para evoluir no Xadrez</h3>
+                <div class="image-container relative">
+                    <img src="images/5segredos.png" alt="Imagem do Curso 1"
+                        class="mx-auto mb-4 w-54 h-78 image-hover">
+                    <p class="text-gray-600 mb-8">Estratégia.</p>
+                    <div class="text-center">
+                        <button
+                            class="btn-saiba-mais neumorphism bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">Saiba
+                            mais</button>
+                    </div>
+                </div>
             </div>
             <div class="bg-[#311843] rounded-lg shadow-neumorphism p-6">
-                <h3 class="text-xl font-bold mb-2 text-purple-400">5 Segredos para Evoluir no Xadrez</h3>
-                <p class="text-gray-600">Descrição do Curso 4.</p>
+                <h3 class="text-xl font-bold mb-2 text-purple-400">Aulas Particulares - Com MN Conti</h3>
+                <div class="image-container relative">
+                    <img src="images/particular.png" alt="Imagem do Curso 1"
+                        class="mx-auto mb-4 w-54 h-78 image-hover">
+                    <p class="text-gray-600 mb-8">Estratégia.</p>
+                    <div class="text-center">
+                        <button
+                            class="btn-saiba-mais neumorphism bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">Saiba
+                            mais</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
