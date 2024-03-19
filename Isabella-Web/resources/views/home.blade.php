@@ -83,7 +83,7 @@
 
     <div id="courses" class="neumorphism-container w-full md:w-3/4 mx-auto mb-12 p-12 mt-12">
         <h2 class="text-3xl font-bold mb-4 text-white-400 text-center mb-8">Cursos Disponíveis</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4"> <!-- Alterado para 2 colunas em dispositivos md e 4 colunas em dispositivos lg -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div class="bg-[#180327] rounded-lg shadow-neumorphism p-6">
                 <h3 class="text-xl font-bold mb-2 text-purple-400">Xadrez Vitorioso - Estratégias</h3>
                 <div class="image-container relative">
@@ -134,7 +134,8 @@
                     <img src="images/particular.png" alt="Imagem do Curso 1" class="mx-auto mb-4 w-54 h-78 image-hover">
                     <p class="text-gray-600 mb-8">Estratégia.</p>
                     <div class="text-center">
-                        <a href="https://api.whatsapp.com/send/?phone=5548988418877&text=Gostaria+de+saber+mais+sobre+as+aulas+de+xadrez%21&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                        <a href="https://api.whatsapp.com/send/?phone=5548988418877&text=Gostaria+de+saber+mais+sobre+as+aulas+de+xadrez%21&type=phone_number&app_absent=0"
+                            target="_blank" rel="noopener noreferrer">
                             <button
                                 class="btn-saiba-mais neumorphism bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-lg">Saiba
                                 mais</button>
