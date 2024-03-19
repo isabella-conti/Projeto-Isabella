@@ -33,7 +33,7 @@
 <body class="bg-gray-100">
     <nav class="bg-navbar p-4 fixed top-0 w-full z-10">
         <div class="container mx-auto flex justify-end items-center">
-            <a href="#home" class="neumorphism text-gray-800 hover:text-white mr-4">Sobre mim</a>
+            <a href="#profile" class="neumorphism text-gray-800 hover:text-white mr-4">Sobre mim</a>
             <a href="#courses" class="neumorphism text-gray-800 hover:text-white mr-4">Cursos</a>
             <a href="#contact" class="neumorphism text-gray-800 hover:text-white">Contato</a>
         </div>
